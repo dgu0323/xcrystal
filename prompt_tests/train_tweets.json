@@ -1,0 +1,252 @@
+[
+  {
+    "id": "fed_cut",
+    "text": "BREAKING: Fed cuts rates by 50bps in a surprise move. Powell signals more cuts are coming.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "high"
+    ]
+  },
+  {
+    "id": "cpi_inline",
+    "text": "US CPI YoY comes in at 3.1%, exactly in line with expectations.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "iran_israel",
+    "text": "Iran launches missiles at Israel. Oil jumps 8%, Bitcoin drops 5% within the hour.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "senate_bill",
+    "text": "Senate passes the infrastructure bill 68-32 after weeks of debate.",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "tsla_earnings",
+    "text": "$TSLA earnings beat, stock up 10% after hours on strong deliveries.",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "sol_halt",
+    "text": "Solana mainnet has been halted for 5 hours. Validators are coordinating a restart.",
+    "expected": [
+      true,
+      "sector",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "exploit",
+    "text": "Lending protocol Nimbus exploited for $120M. Attacker is bridging funds to Ethereum right now.",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "binance_listing",
+    "text": "Binance will list $ABC. Spot trading opens today at 10:00 UTC.",
+    "expected": [
+      true,
+      "single_asset",
+      "bullish",
+      "high"
+    ]
+  },
+  {
+    "id": "usdc_depeg",
+    "text": "USDC depegs to $0.88 after Circle discloses $3.3B stuck at a failed bank.",
+    "expected": [
+      true,
+      "sector",
+      "bearish",
+      "extreme"
+    ]
+  },
+  {
+    "id": "eth_etf",
+    "text": "SEC approves spot Ethereum ETF applications from all major issuers.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "extreme"
+    ]
+  },
+  {
+    "id": "gm",
+    "text": "GM crypto fam ☀️ coffee and charts, let's have a great day",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "opinion",
+    "text": "I think BTC hits 200k by the end of the year. Not financial advice.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "etf_inflow",
+    "text": "Spot Bitcoin ETFs saw $1.2B in net inflows yesterday, the largest day since launch.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "high"
+    ]
+  },
+  {
+    "id": "unlock",
+    "text": "Reminder: 1.1B $ARB (~$1B) unlocks next week, about 87% of circulating supply.",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "tariff_truce",
+    "text": "US and China agree to a 90-day tariff truce. Nasdaq futures up 3%, risk assets rallying.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "fed_mixed",
+    "text": "Fed minutes: officials see rate cuts later this year but warn inflation remains sticky.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "iphone",
+    "text": "Apple announces the iPhone 17 with a bigger battery and a new camera.",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "zh_hike",
+    "text": "美联储意外加息50个基点，美元指数暴涨，比特币跌破6万美元。",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "extreme"
+    ]
+  },
+  {
+    "id": "zh_withdraw",
+    "text": "某头部交易所突然暂停提现，官方称系统维护，社区担心交易所资不抵债。",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "extreme"
+    ]
+  },
+  {
+    "id": "zh_lunch",
+    "text": "今天的午饭太好吃了，强烈推荐公司楼下这家拉面。",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "uni_v4",
+    "text": "Uniswap v4 is now live on Ethereum mainnet, with hooks.",
+    "expected": [
+      true,
+      "single_asset",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "throwback",
+    "text": "Throwback: remember when BTC hit 69k in November 2021?",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "ticker_link",
+    "text": "New summer collection just dropped 👗 $LINK in bio!",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "mixer_sanction",
+    "text": "US Treasury sanctions a crypto mixer; several DeFi frontends start blocking US users.",
+    "expected": [
+      true,
+      "sector",
+      "bearish",
+      "medium"
+    ]
+  },
+  {
+    "id": "taiwan",
+    "text": "China announces live-fire drills encircling Taiwan. Asian stocks slide, gold spikes.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "high"
+    ]
+  }
+]

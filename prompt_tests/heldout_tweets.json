@@ -1,0 +1,252 @@
+[
+  {
+    "id": "ecb_cut",
+    "text": "ECB cuts deposit rate by 25bps; euro softens, risk assets bid in European hours.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "nfp_hot",
+    "text": "US payrolls smash expectations at +350k. Bond yields spike; traders price out two cuts.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "korea_ban_rumor",
+    "text": "South Korea lawmakers float a blanket ban on domestic crypto trading apps.",
+    "expected": [
+      true,
+      "sector",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "coinbase_outage",
+    "text": "Coinbase spot matching engine offline for 40 minutes during a volatility spike.",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "medium"
+    ]
+  },
+  {
+    "id": "okx_list_pepe",
+    "text": "OKX will list PEPE perpetual futures with up to 50x leverage at 08:00 UTC.",
+    "expected": [
+      true,
+      "single_asset",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "dai_softpeg",
+    "text": "DAI drifts to $0.97 after a large Maker vault liquidation cascade.",
+    "expected": [
+      true,
+      "sector",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "btc_etf_outflow",
+    "text": "Spot Bitcoin ETFs post $480M net outflows, third consecutive red day.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "apt_unlock",
+    "text": "Aptos foundation unlocks 11M $APT tomorrow (~$80M at spot).",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "medium"
+    ]
+  },
+  {
+    "id": "bridge_hack",
+    "text": "Wormhole-style bridge on ChainX drained for $45M overnight; explorers confirm.",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "base_tvl",
+    "text": "Base chain TVL crosses $10B for the first time as Superchain activity heats up.",
+    "expected": [
+      true,
+      "sector",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "aapl_split",
+    "text": "$AAPL announces 4-for-1 stock split after record iPhone sales quarter.",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "nike_dunk",
+    "text": "Just dropped: limited Nike Dunks — use code SOL at checkout 🔥",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "link_in_bio2",
+    "text": "My new coaching program is live — full details, link in bio ✨",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "eth_as_name",
+    "text": "Congrats to Eth Thompson on the new VP role at the bank!",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "sol_spanish",
+    "text": "El sol está fuerte hoy en Barcelona, perfect day for the beach ☀️",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "zh_etf",
+    "text": "香港比特币现货ETF今日净流入破纪录，机构买盘强劲。",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "high"
+    ]
+  },
+  {
+    "id": "zh_hack",
+    "text": "某DeFi借贷协议遭闪电贷攻击，损失约8000万美元，代币暴跌40%。",
+    "expected": [
+      true,
+      "single_asset",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "zh_weather",
+    "text": "周末上海多云转晴，适合出去走走。",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "oil_shock2",
+    "text": "Hormuz shipping disrupted; Brent crude +12%. Equity futures red, gold bid.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bearish",
+      "high"
+    ]
+  },
+  {
+    "id": "dovish_powell",
+    "text": "Powell: 'progress on inflation opens the door to easing later this year.'",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "old_ftx",
+    "text": "Remember FTX collapsing in 2022? Wild times. Anyway, happy Friday.",
+    "expected": [
+      true,
+      "btc_eth_macro",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "meme_opinion",
+    "text": "Honestly $DOGE is going to the moon, trust me bro.",
+    "expected": [
+      true,
+      "single_asset",
+      "neutral",
+      "low"
+    ]
+  },
+  {
+    "id": "sec_ripple",
+    "text": "Court rules in favor of Ripple on secondary XRP sales; $XRP spikes 20%.",
+    "expected": [
+      true,
+      "single_asset",
+      "bullish",
+      "high"
+    ]
+  },
+  {
+    "id": "stable_yield",
+    "text": "BlackRock's BUIDL tokenized fund hits $1B AUM on Ethereum.",
+    "expected": [
+      true,
+      "sector",
+      "bullish",
+      "medium"
+    ]
+  },
+  {
+    "id": "nvda_ai",
+    "text": "$NVDA guidance raised on AI chip demand; semis rip after hours.",
+    "expected": [
+      false,
+      "none",
+      "neutral",
+      "low"
+    ]
+  }
+]

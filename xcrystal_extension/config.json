@@ -1,0 +1,7 @@
+{
+  "apiUrl": "http://localhost:5678",
+  "cacheSize": 1000,
+  "defaultLang": "zh",
+  "defaultMode": "manual",
+  "note": "apiUrl 可在插件设置面板中修改，此为默认值"
+}

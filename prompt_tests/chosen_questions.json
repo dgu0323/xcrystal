@@ -1,0 +1,51 @@
+{
+  "variant": "simple_rel",
+  "questions": {
+    "volatile": {
+      "type": "noul",
+      "instructions": "Does this post mention a cryptocurrency, a crypto company/exchange/protocol, a crypto ETF, or a macro/geopolitical event that clearly affects financial markets or risk assets? Answer false for stock tickers, fashion 'link in bio', lifestyle, and politics with no market hook.",
+      "criteria": {
+        "true": "Mentions BTC/ETH/crypto/token/chain/exchange/DeFi/ETF, or rates/war/sanctions that move markets or risk assets.",
+        "false": "Stock/brand ticker only, 'link in bio', lifestyle, pure politics, no market/crypto hook."
+      }
+    },
+    "scope": {
+      "type": "choice",
+      "instructions": "Which layer does this hit?",
+      "criteria": {
+        "btc_eth_macro": "BTC, ETH, crypto ETFs, or a macro/geopolitical shock that reprices crypto as a risk or liquidity asset.",
+        "sector": "L2, DeFi, memes, AI-crypto, RWA, stables, one chain.",
+        "single_asset": "One token, protocol, or exchange.",
+        "none": "No crypto transmission."
+      }
+    },
+    "direction": {
+      "type": "choice",
+      "instructions": "Is the new information good or bad for the assets in scope? Judge the event, not a price forecast.",
+      "criteria": {
+        "bullish": "Easier liquidity or higher risk appetite: cuts, dovish surprise, dollar down, ETF inflow, peace/de-escalation, listing, partnership, product live, legal win, buyback.",
+        "bearish": "Tighter liquidity or risk-off: hikes, hawkish surprise, dollar spike, war escalation, sanctions, banking stress, hack, halt, depeg, unlock dump, lawsuit, ban, delist.",
+        "neutral": "Opinion, joke, old news, mixed macro (hawkish and dovish in one post), or no new fact."
+      }
+    },
+    "impact": {
+      "type": "score",
+      "instructions": "How much can this move the assets in scope in hours to a few days?",
+      "criteria": [
+        "low: recycled headline, pundit take, minor data in-line",
+        "medium: real data surprise, limited regional conflict, mid-tier listing or outage",
+        "high: FOMC surprise, sudden escalation, ETF flow shock, large unlock, top-venue listing, $10M+ exploit, chain halt",
+        "extreme: emergency rate move, systemic war/sanctions shock, ETF approve/ban, exchange solvency, stable depeg, event that reprices BTC/ETH itself"
+      ]
+    }
+  },
+  "means": {
+    "grok": 0.5795,
+    "simple_rel": 0.6195,
+    "dir_first": 0.5473,
+    "short": 0.5831,
+    "zh": 0.5423,
+    "combo": 0.5615,
+    "explicit": 0.5386
+  }
+}
